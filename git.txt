@@ -1,11 +1,24 @@
 *****************
-
+INITIALIZING ADDING COMITING:
 git init - initializing git
 git add . - adding the files and folder in the wroking directory to git
 git commit -m "comment" - comitiong the staging changes to the git repo
+*****************
+CHANGING NAME + EMAIL:
+git config user.name "username" - sets the current username
+git config user.email "email@email.com" - sets the current email
+git config user.email - shows the current user email 
+git config user.name - shows the current username 
+*****************
+STATUS LOG:
 git log - shows a list of commits
 git status - shows the current status i.e. staged/unstaged commited/uncommited
-git config user.name "username" - sets the username of the authour
-git config user.email "email@email.com" - sets the email of the authour
-
-*****************
+***************************
+BRANCHES
+git branch --shows all the branches in the local repo
+git branch new_branch -- creates a new branch called new_branch
+git checkout new_branch -- lets you go to new_branch
+git branch –m new_branch latest_branch -- renames new_branch as latest_branch
+git checkout main -- moves us to the main branch
+git branch –D latest_branch -- deletes latest_branch
+git branch -- shows all the available branches
