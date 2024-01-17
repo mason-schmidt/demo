@@ -1,3 +1,5 @@
+*****************
+
 git init - initializing git
 git add . - adding the files and folder in the wroking directory to git
 git commit -m "comment" - comitiong the staging changes to the git repo
@@ -5,3 +7,5 @@ git log - shows a list of commits
 git status - shows the current status i.e. staged/unstaged commited/uncommited
 git config user.name "username" - sets the username of the authour
 git config user.email "email@email.com" - sets the email of the authour
+
+*****************
