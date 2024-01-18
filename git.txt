@@ -22,3 +22,5 @@ git branch –m new_branch latest_branch -- renames new_branch as latest_branch
 git checkout main -- moves us to the main branch
 git branch –D latest_branch -- deletes latest_branch
 git branch -- shows all the available branches
+
+this is a file in the side branch
